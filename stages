@@ -22,6 +22,13 @@ pipeline {
                 }
             }
         }
+        stage('test1') {
+            steps {
+                script {
+                    echo "application will run test1"
+                }
+            }
+        }
         stage('test2') {
             steps {
                 script {
